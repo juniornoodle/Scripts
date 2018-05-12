@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Define source directory
-sourcedir="/home/mmccaffery/"
+sourcedir="/home/"
 
 #Get the time
 time=`date "+%Y.%m.%d"`
