@@ -19,5 +19,5 @@ tar -czvf "$backupdir.tar.gz" $backupdir
 #Clean up uncompressed backup
 rm -rf $backupdir
 
-#Remove any backups older than 30 days
-find "/backup/" -type f -mtime +30 -exec rm -rf {} \;
+#Remove any backups older than 40 days
+find "/backup/" -type f -mtime +40 -exec rm -rf {} \;
